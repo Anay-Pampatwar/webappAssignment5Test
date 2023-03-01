@@ -19,10 +19,6 @@ unzip webapp.zip -d ~/webapp
 cd ~/webapp && npm i
 cd ~/webapp
 
-#set environment variables
-sudo touch .env
-sudo chmod 777 .env
-source /etc/profile
 
 cd ~/webapp && npm i 
 sudo mv /tmp/webapp.service /etc/systemd/system/webapp.service
